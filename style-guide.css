@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+}
+
+.left-section {
+    background: linear-gradient(180deg, #5f2eea, #6a66e8);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    flex: 1;
+    position: relative;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.left-section h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2); /* Cercle transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+           
+            
+            
+}
+
+.circle-text{
+    
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+   
+    
+}
+
+.circle-number {
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: -20px;
+    
+}
+
+
+.score-label {
+    position: absolute;
+    bottom: -20px;
+    font-size: 16px;
+    color: #dcdcdc;
+}
+
+.left-section p {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+.left-section small {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.right-section {
+    padding: 40px 20px;
+    flex: 1;
+}
+
+.summary {
+    margin-top: 5px;
+}
+
+.summary h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+
+
+.reaction {
+    color: #ff6b6b;
+}
+
+.memory {
+    color: #f3a952;
+}
+
+.verbal {
+    color: #2acfcf;
+}
+
+.visual {
+    color: #3b82f6;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
